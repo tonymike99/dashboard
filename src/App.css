@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
