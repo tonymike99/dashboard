@@ -1,0 +1,30 @@
+.card {
+  position: relative;
+  width: 12.5rem;
+  height: 10rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+}
+
+.top-left-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.small-stat-card-title {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.small-stat-card-subtitle {
+  font-size: 1rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
