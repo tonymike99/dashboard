@@ -1,0 +1,43 @@
+.header {
+  background-color: #30344c;
+  color: white;
+  margin: 0 2rem;
+  padding: 0.75rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-name {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.app-name::first-letter {
+  color: #ddd;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: #ddd;
+}
+
+.navbar > a:first-child {
+  text-decoration: underline;
+}
+
+.display-picture {
+  border-radius: 50%;
+}
+
+.settings {
+  display: flex;
+  gap: 1.5rem;
+  color: #ddd;
+}
