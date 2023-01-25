@@ -1,10 +1,11 @@
 import "./App.css";
-import { Header } from "./components/index";
+import { Header, SmallStatCards } from "./components/index";
 
 function App() {
   return (
     <>
       <Header />
+      <SmallStatCards />
     </>
   );
 }

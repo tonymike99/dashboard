@@ -1,0 +1,5 @@
+.small-stat-cards {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem;
+}
