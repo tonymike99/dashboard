@@ -1,4 +1,5 @@
 .budget-status-cards {
   display: flex;
   gap: 2rem;
+  margin: 2rem;
 }
