@@ -18,7 +18,7 @@ function Header() {
         </span>
         <img
           className="display-picture"
-          src="https://i.pravatar.cc/30?img=1"
+          src="https://i.pravatar.cc/35?img=1"
           alt="woman"
         />
         <span>Mario</span>
