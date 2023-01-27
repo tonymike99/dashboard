@@ -2,8 +2,7 @@ import "./App.css";
 import {
   Header,
   SmallStatCards,
-  BudgetChart,
-  LineChart,
+  Charts,
   BudgetStatusCards,
 } from "./components/index";
 
@@ -12,10 +11,7 @@ function App() {
     <>
       <Header />
       <SmallStatCards />
-      <div className="charts">
-        <LineChart />
-        <BudgetChart />
-      </div>
+      <Charts />
       <BudgetStatusCards />
     </>
   );

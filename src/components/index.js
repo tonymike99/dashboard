@@ -5,6 +5,7 @@ import BudgetChart from "./Chart/BudgetChart";
 import LineChart from "./Chart/LineChart";
 import BudgetStatusCard from "./BudgetStatusCard/BudgetStatusCard";
 import BudgetStatusCards from "./BudgetStatusCards/BudgetStatusCards";
+import Charts from "./Charts/Charts";
 
 export {
   Header,
@@ -14,4 +15,5 @@ export {
   LineChart,
   BudgetStatusCard,
   BudgetStatusCards,
+  Charts,
 };
