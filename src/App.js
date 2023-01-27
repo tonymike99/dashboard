@@ -4,6 +4,7 @@ import {
   SmallStatCards,
   BudgetChart,
   LineChart,
+  BudgetStatusCards,
 } from "./components/index";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <LineChart />
         <BudgetChart />
       </div>
+      <BudgetStatusCards />
     </>
   );
 }
