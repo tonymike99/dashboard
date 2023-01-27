@@ -1,0 +1,44 @@
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.range-slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 3rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background: #e8e8e8;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #fafafa;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  cursor: pointer;
+}
+
+.chart {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.line-chart {
+  width: 55rem;
+}
+
+.budget-chart {
+  width: 30rem;
+}
+
+.gray {
+  color: gray;
+}
