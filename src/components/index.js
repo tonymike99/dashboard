@@ -6,6 +6,8 @@ import LineChart from "./Chart/LineChart";
 import BudgetStatusCard from "./BudgetStatusCard/BudgetStatusCard";
 import BudgetStatusCards from "./BudgetStatusCards/BudgetStatusCards";
 import Charts from "./Charts/Charts";
+import Button from "./Button/Button";
+import BudgetStatusHeader from "./BudgetStatusHeader/BudgetStatusHeader";
 
 export {
   Header,
@@ -16,4 +18,6 @@ export {
   BudgetStatusCard,
   BudgetStatusCards,
   Charts,
+  Button,
+  BudgetStatusHeader,
 };

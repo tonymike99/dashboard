@@ -3,6 +3,7 @@ import {
   Header,
   SmallStatCards,
   Charts,
+  BudgetStatusHeader,
   BudgetStatusCards,
 } from "./components/index";
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <SmallStatCards />
       <Charts />
+      <BudgetStatusHeader />
       <BudgetStatusCards />
     </>
   );

@@ -1,0 +1,10 @@
+.budget-status-header {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.budget-status-title {
+  font-size: 2rem;
+  font-weight: bold;
+}

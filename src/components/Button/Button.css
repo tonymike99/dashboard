@@ -1,0 +1,16 @@
+.button {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.button-solid {
+  color: white;
+  background-color: gray;
+}
+
+.button-outlined {
+  color: gray;
+  border: 1px solid gray;
+  background-color: white;
+}
