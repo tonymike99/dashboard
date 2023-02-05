@@ -1,7 +1,7 @@
 .team-mood-card {
-  border-bottom: 3px solid #f8f8f8;
+  border-bottom: 2px solid #f8f8f8;
   padding: 1rem;
-  margin: 1rem;
+  margin-bottom: 1rem;
 }
 
 .team-mood-card-header {
@@ -25,10 +25,7 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background-color: black;
   background-image: url("/src//assets//img//smiley.png");
   background-position: center;
   background-size: cover;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  cursor: pointer;
 }

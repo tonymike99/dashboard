@@ -4,7 +4,7 @@ import { TeamMoodCard } from "../index";
 function TeamMood() {
   return (
     <div className="team-mood">
-      <p className="text-medium">Team Mood</p>
+      <span className="text-medium">Team Mood</span>
 
       <TeamMoodCard
         name={"Andrea"}

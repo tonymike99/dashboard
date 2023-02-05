@@ -1,5 +1,6 @@
 .budget-status-header {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin: 2rem;
 }

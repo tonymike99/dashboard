@@ -12,11 +12,17 @@ function App() {
   return (
     <>
       <Header />
-      <StatCards />
-      <Charts />
-      <BudgetStatusHeader />
-      <BudgetStatusCards />
-      <TeamMood />
+      <div className="section-1">
+        <div>
+          <StatCards />
+          <Charts />
+        </div>
+        <TeamMood />
+      </div>
+      <div className="section-2">
+        <BudgetStatusHeader />
+        <BudgetStatusCards />
+      </div>
     </>
   );
 }
