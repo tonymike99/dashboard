@@ -10,14 +10,14 @@
   width: 25rem;
 }
 
+.budget-status-picture {
+  border-radius: 50%;
+}
+
 .top-right-badge {
   position: absolute;
   top: 1rem;
   right: 1rem;
-}
-
-.budget-status-picture {
-  border-radius: 50%;
 }
 
 .progress-value {
@@ -29,36 +29,4 @@
 .progress-value-text {
   display: flex;
   justify-content: space-between;
-}
-
-.text-small {
-  font-size: 1rem;
-}
-
-.text-medium {
-  font-size: 1.5rem;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.light-gray {
-  color: lightgray;
-}
-
-.gray {
-  color: gray;
-}
-
-.red {
-  color: red;
-}
-
-.bg-gray {
-  background-color: gray;
-}
-
-.bg-red {
-  background-color: red;
 }

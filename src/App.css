@@ -8,3 +8,35 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
+.text-small {
+  font-size: 1rem;
+}
+
+.text-medium {
+  font-size: 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light-gray {
+  color: lightgray;
+}
+
+.gray {
+  color: gray;
+}
+
+.red {
+  color: red;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-red {
+  background-color: red;
+}
