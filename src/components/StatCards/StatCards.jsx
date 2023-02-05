@@ -1,10 +1,10 @@
-import "./SmallStatCards.css";
-import { SmallStatCard } from "../index";
+import "./StatCards.css";
+import { StatCard } from "../index";
 
-function SmallStatCards() {
+function StatCards() {
   return (
-    <div className="small-stat-cards">
-      <SmallStatCard
+    <div className="stat-cards">
+      <StatCard
         backgroundColor={"white"}
         textColor={"black"}
         icon={"fa-solid fa-table-cells-large"}
@@ -12,7 +12,7 @@ function SmallStatCards() {
         title={"5"}
         subtitle={"Total Projects"}
       />
-      <SmallStatCard
+      <StatCard
         backgroundColor={"white"}
         textColor={"black"}
         icon={"fa-regular fa-circle-check"}
@@ -20,7 +20,7 @@ function SmallStatCards() {
         title={"1"}
         subtitle={"Completed"}
       />
-      <SmallStatCard
+      <StatCard
         backgroundColor={"white"}
         textColor={"black"}
         icon={"fa-solid fa-rotate"}
@@ -28,7 +28,7 @@ function SmallStatCards() {
         title={"3"}
         subtitle={"Ongoing"}
       />
-      <SmallStatCard
+      <StatCard
         backgroundColor={"#ff748c"}
         textColor={"white"}
         icon={"fa-solid fa-triangle-exclamation"}
@@ -36,7 +36,7 @@ function SmallStatCards() {
         title={"1"}
         subtitle={"Delayed"}
       />
-      <SmallStatCard
+      <StatCard
         backgroundColor={"white"}
         textColor={"black"}
         icon={"fa-solid fa-user-group"}
@@ -48,4 +48,4 @@ function SmallStatCards() {
   );
 }
 
-export default SmallStatCards;
+export default StatCards;

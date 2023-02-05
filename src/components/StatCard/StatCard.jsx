@@ -1,6 +1,6 @@
-import "./SmallStatCard.css";
+import "./StatCard.css";
 
-function SmallStatCard({
+function StatCard({
   backgroundColor,
   textColor,
   icon,
@@ -17,10 +17,10 @@ function SmallStatCard({
         <i className={`${icon} fa-2x`}></i>
       </span>
 
-      <span className="small-stat-card-title"> {title}</span>
-      <span className="small-stat-card-subtitle">{subtitle}</span>
+      <span className="stat-card-title"> {title}</span>
+      <span className="stat-card-subtitle">{subtitle}</span>
     </div>
   );
 }
 
-export default SmallStatCard;
+export default StatCard;

@@ -1,20 +1,22 @@
 import "./App.css";
 import {
   Header,
-  SmallStatCards,
+  StatCards,
   Charts,
   BudgetStatusHeader,
   BudgetStatusCards,
+  TeamMood,
 } from "./components/index";
 
 function App() {
   return (
     <>
       <Header />
-      <SmallStatCards />
+      <StatCards />
       <Charts />
       <BudgetStatusHeader />
       <BudgetStatusCards />
+      <TeamMood />
     </>
   );
 }
